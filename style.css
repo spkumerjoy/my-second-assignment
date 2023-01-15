@@ -452,8 +452,8 @@ body{
             font-size: 20px;
             margin-right: 15px;
         }
-        #contact-wrapper .contact-info-wrapper .map-wrap{
-            width: 100% !important;
+        #contact-wrapper .contact-info-wrapper .map-wrap iframe{
+            width: 500px !important;
         }
         /* -----contact-section-style-responsive-end----- */
          /* -----fotter-section-style-started----- */
