@@ -59,7 +59,7 @@ body{
     font-weight: bold;
     color: var(--txt-black);
 }
-#header-wrapper .banner-wrapper .banner-txt-btn p, #team-wrapper .team-txt-btn p, #article-wrapper .article-content p, #experience-wrapper p, #sponsors-wrapper p{
+#header-wrapper .banner-wrapper .banner-txt-btn p, #team-wrapper .team-txt-btn p, #article-wrapper .article-content p, #experience-wrapper p, #sponsors-wrapper p, #contact-wrapper p{
     font-size: 16px;
     color: var(--txt-gray);
     margin-top: 20px;
@@ -177,7 +177,7 @@ body{
 #experience-wrapper{
     padding: 50px 150px;
 }
-#experience-wrapper h2, #sponsors-wrapper h2{
+#experience-wrapper h2, #sponsors-wrapper h2, #contact-wrapper h2{
     font-size: 45px;
     font-weight: bold;
     color: var(--txt-black);
@@ -215,7 +215,7 @@ body{
 }
 /* -----experience-section-style-end----- */
 /* -----sponsors-section-style-started----- */
-#sponsors-wrapper{
+#sponsors-wrapper, #contact-wrapper{
     padding: 50px 150px;
     text-align: center;
 }
@@ -227,3 +227,28 @@ body{
     filter: grayscale(100%);
 }
 /* -----sponsors-section-style-end----- */
+/* -----contact-section-style-started----- */
+#contact-wrapper .contact-info-wrapper{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+#contact-wrapper .contact-info-wrapper .contact-info{
+    width: 50%;
+    text-align: left;
+}
+#contact-wrapper .contact-info-wrapper .contact-info ul li{
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--txt-black);
+    line-height: 50px;
+}
+#contact-wrapper .contact-info-wrapper .contact-info ul li i{
+    color: var(--btn-orange);
+    font-size: 30px;
+    margin-right: 20px;
+}
+#contact-wrapper .contact-info-wrapper .contact-info .map-wrap{
+    width: 50%;
+}
