@@ -59,10 +59,11 @@ body{
     font-weight: bold;
     color: var(--txt-black);
 }
-#header-wrapper .banner-wrapper .banner-txt-btn p, #team-wrapper .team-txt-btn p, #article-wrapper .article-content p, #experience-wrapper p{
+#header-wrapper .banner-wrapper .banner-txt-btn p, #team-wrapper .team-txt-btn p, #article-wrapper .article-content p, #experience-wrapper p, #sponsors-wrapper p{
     font-size: 16px;
     color: var(--txt-gray);
     margin-top: 20px;
+    line-height: 20px;
 }
 #header-wrapper .banner-wrapper .banner-txt-btn button, #team-wrapper .team-txt-btn button{
     margin-top: 20px;
@@ -121,7 +122,7 @@ body{
     color: var(--btn-orange);
 }
 /* -----team-section-style-end----- */
-/* -----article-section-started----- */
+/* -----article-section-style-started----- */
 #article-wrapper{
     padding: 50px 150px 0px 150px;
     display: flex;
@@ -147,8 +148,6 @@ body{
     color: var(--txt-black);
 }
 #article-wrapper .article-content article p{
-    font-size: 16px;
-    color: var(--txt-gray);
     margin-top: 10px;
 }
 #article-wrapper .article-img{
@@ -173,19 +172,20 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
-/* -----article-section-end----- */
-/* -----experience-section-started----- */
+/* -----article-section-style-end----- */
+/* -----experience-section-style-started----- */
 #experience-wrapper{
     padding: 50px 150px;
 }
-#experience-wrapper h2{
+#experience-wrapper h2, #sponsors-wrapper h2{
     font-size: 45px;
     font-weight: bold;
     color: var(--txt-black);
 }
 #experience-wrapper .experiences-wrap{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 80px;
 }
 #experience-wrapper .experiences-wrap .experience-box{
@@ -199,7 +199,7 @@ body{
 }
 
 #experience-wrapper .experiences-wrap .experience-box:hover{
-    transform: rotate(360deg) scale(1.3);
+    transform: rotate(360deg) scale(1.4);
 }
 
 #experience-wrapper .experiences-wrap .experience-box h3{
@@ -213,4 +213,17 @@ body{
     font-weight: 600;
     color: var(--txt-gray);
 }
-/* -----experience-section-end----- */
+/* -----experience-section-style-end----- */
+/* -----sponsors-section-style-started----- */
+#sponsors-wrapper{
+    padding: 50px 150px;
+    text-align: center;
+}
+#sponsors-wrapper .sponsors-logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    filter: grayscale(100%);
+}
+/* -----sponsors-section-style-end----- */
