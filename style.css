@@ -2,21 +2,23 @@
 :root {
     --header-bg: #FFF4E7;
     --txt-black: #000;
+    --txt-gray:#727272;
     --btn-orange: #FF900E;
+    --txt-white:#fff;
 
 }
-/* import google font here */
+/* -----import google font here----- */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Work+Sans:wght@700&display=swap');
 body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-/* header-section-style-start */
+/* -----header-section-style-start----- */
 #header-wrapper{
     background-color: var(--header-bg);
-    padding: 50px 150px;
+    padding: 45px 150px;
 }
-/* nav-bar-style-start */
+/* -----nav-bar-style-start----- */
 #header-wrapper nav{
     display: flex;
     justify-content: space-between;
@@ -44,5 +46,40 @@ body{
 #header-wrapper nav .menu ul li a:hover{
     color: var(--btn-orange);
 }
-/* nav-bar-style-end */
-/* header-section-style-end */
+/* -----nav-bar-style-end----- */
+/* -----header-banner-section-style-started----- */
+.banner-wrapper{
+    margin-top: 80px;
+}
+.banner-wrapper .banner-txt-btn{
+    text-align: center;
+}
+.banner-wrapper .banner-txt-btn h1{
+    font-size: 64px;
+    font-weight: bold;
+    color: var(--txt-black);
+}
+.banner-wrapper .banner-txt-btn p{
+    font-size: 16px;
+    color: var(--txt-gray);
+    margin-top: 20px;
+}
+.banner-wrapper .banner-txt-btn button{
+    margin-top: 20px;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--btn-orange);
+}
+.banner-wrapper .banner-txt-btn button a{
+    text-decoration: none;
+    color: var(--txt-white);
+    font-size: 20px;
+    font-weight: 600;
+}
+.banner-wrapper .banner-img img{
+    width: 100%;
+    margin-top: 30px;
+}
+/* -----header-banner-section-style-end----- */
+/* -----header-section-style-end----- */
