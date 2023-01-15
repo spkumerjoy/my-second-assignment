@@ -240,7 +240,7 @@ body{
 #contact-wrapper .contact-info-wrapper .contact-info ul li{
     list-style-type: none;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--txt-black);
     line-height: 50px;
 }
@@ -252,3 +252,15 @@ body{
 #contact-wrapper .contact-info-wrapper .contact-info .map-wrap{
     width: 50%;
 }
+/* -----contact-section-style-end----- */
+/* -----fotter-section-style-started----- */
+#footer{
+    background-color: var(--header-bg);
+    text-align: center;
+    padding: 30px;
+}
+#footer p{
+    font-size: 18px;
+    color: var(--box-heading);
+}
+/* -----fotter-section-style-started----- */
