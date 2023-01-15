@@ -452,7 +452,9 @@ body{
             font-size: 20px;
             margin-right: 15px;
         }
-    
+        #contact-wrapper .contact-info-wrapper .map-wrap{
+            display: flex;
+        }
         /* -----contact-section-style-responsive-end----- */
          /* -----fotter-section-style-started----- */
         #footer p {
