@@ -1,1 +1,48 @@
 *{margin: 0; padding: 0;}
+:root {
+    --header-bg: #FFF4E7;
+    --txt-black: #000;
+    --btn-orange: #FF900E;
+
+}
+/* import google font here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Work+Sans:wght@700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/* header-section-style-start */
+#header-wrapper{
+    background-color: var(--header-bg);
+    padding: 50px 150px;
+}
+/* nav-bar-style-start */
+#header-wrapper nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header-wrapper nav .logo h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: var(--txt-black);
+}
+#header-wrapper nav .menu ul{
+    display: flex;
+}
+#header-wrapper nav .menu ul li{
+    list-style-type: none;
+    margin-left: 50px;
+}
+#header-wrapper nav .menu ul li a{
+    text-decoration: none;
+    color: var(--txt-black);
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.4s all ease;
+}
+#header-wrapper nav .menu ul li a:hover{
+    color: var(--btn-orange);
+}
+/* nav-bar-style-end */
+/* header-section-style-end */
