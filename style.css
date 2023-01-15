@@ -270,6 +270,7 @@ body{
     color: var(--box-heading);
 }
 /* -----fotter-section-style-end----- */
+/* -----Responsive-for-mobile-device-start----- */
 @media only screen and (max-width: 576px){
         /* ---header-responsive-start--- */
         #header-wrapper {
@@ -339,10 +340,6 @@ body{
     
         #article-wrapper .article-content h2 {
             font-size: 35px;
-            /* font-weight: bold;
-            border-left: 5px solid var(--btn-orange);
-            padding-left: 20px;
-            margin-bottom: 5px; */
         }
     
         #article-wrapper .article-content article {
@@ -359,6 +356,7 @@ body{
         }
     
         #article-wrapper .article-img {
+            margin-top: 30px;
             width: 100%;
         }
     
@@ -463,4 +461,198 @@ body{
         }
          /* -----fotter-section-style-end----- */
 }
-/* responsive-end */
+/* responsive-for-mobile-device-end */
+/* -----responsive-for-medium-device-started */
+@media only screen and (min-width: 577px) and (max-width: 767px){
+        /* ---header-responsive-start--- */
+        #header-wrapper {
+            padding: 20px;
+        }
+        #header-wrapper nav {
+            display: flex;
+            flex-direction: column;
+        }
+        #header-wrapper nav .logo h1 {
+            font-size: 35px;
+        }
+        #header-wrapper nav .menu ul {
+            display: flex;
+            flex-direction: column;
+        }
+        #header-wrapper nav .menu ul li {
+            margin-left: 0;
+            line-height: 30px;
+        }
+            #header-wrapper .banner-wrapper {
+                margin-top: 20px;
+            }
+        #header-wrapper .banner-wrapper .banner-txt-btn h1 {
+            font-size: 35px;
+        }
+        #header-wrapper .banner-wrapper .banner-txt-btn button,
+        #team-wrapper .team-txt-btn button {
+            padding: 10px 15px;
+            }
+        /* ---header-responsive-end--- */
+        /* ---team-section-responsive--- */
+        #team-wrapper {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        #team-wrapper .team-imgs {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+        }
+        #team-wrapper .team-txt-btn {
+            padding-left: 0px;
+            width: 100%;
+            text-align: center;
+        }
+    
+        #team-wrapper .team-txt-btn h2 {
+            margin-top: 15px;
+            font-size: 35px;
+        }
+    /* ---team-section-responsive-end--- */
+    /* ---article-section-responsive-started */
+        #article-wrapper {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        #article-wrapper .article-content {
+            width: 100%;
+            padding-right: 0px;
+        }
+    
+        #article-wrapper .article-content h2 {
+            font-size: 35px;
+        }
+    
+        #article-wrapper .article-content article {
+            padding: 25px;
+            box-shadow: 0 4px 2px -2px #e7e6e670;
+        }
+    
+        #article-wrapper .article-content article h3 {
+            font-size: 15px;
+        }
+    
+        #article-wrapper .article-content article p {
+            margin-top: 10px;
+        }
+    
+        #article-wrapper .article-img {
+            margin-top: 30px;
+            width: 100%;
+        }
+    
+        #article-wrapper .experience-btn {
+            padding: 20px 25px;
+            position: relative;
+            bottom: 0px;
+            right: 0px;
+            left: 35%;
+            top: 20px;
+        }
+    
+        #article-wrapper .experience-btn h2 {
+            font-size: 35px;
+        }
+    
+        #article-wrapper .experience-btn p {
+            font-size: 15px;
+        }
+    /* ---article-section-responsive-end */
+    /* -----experience-section-responsive-started----- */
+        #experience-wrapper {
+            margin-top: 50px;
+            padding: 20px;
+            text-align: center;
+        }
+    
+        #experience-wrapper h2,
+        #sponsors-wrapper h2,
+        #contact-wrapper h2 {
+            font-size: 35px;
+        }
+    
+        #experience-wrapper .experiences-wrap {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: space-around;
+            grid-area: auto;
+            margin-top: 30px;
+        }
+    
+        #experience-wrapper .experiences-wrap .experience-box {
+            width: 250px;
+            height: 200px;
+            padding: 30px;
+            margin-top: 25px;
+        }
+        #experience-wrapper .experiences-wrap .experience-box h3 {
+            font-size: 25px;
+        }
+    
+        #experience-wrapper .experiences-wrap .experience-box p {
+            font-size: 20px;
+        }
+    /* -----experience-section-responsive-end----- */
+    /* -----sponsors-section-style-responsive-started----- */
+        #sponsors-wrapper,
+        #contact-wrapper {
+            padding: 20px;
+            text-align: center;
+            margin-top: 30px;
+        }
+    
+        #sponsors-wrapper .sponsors-logos {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin-top: 0;
+        }
+        #sponsors-wrapper .sponsors-logos img{
+            margin-top: 50px;
+        }
+    
+        /* -----sponsors-section-style-responsive-end----- */
+        /* -----contact-section-style-responsive-started----- */
+        #contact-wrapper .contact-info-wrapper {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        #contact-wrapper .contact-info-wrapper .contact-info {
+            width: 100%;
+            text-align: left;
+        }
+        #contact-wrapper .contact-info-wrapper .contact-info ul{
+            margin-top: -30px;
+            margin-bottom: 30px;
+        }
+        #contact-wrapper .contact-info-wrapper .contact-info ul li {
+            font-size: 16px;
+            line-height: 50px;
+        }
+    
+        #contact-wrapper .contact-info-wrapper .contact-info ul li i {
+            font-size: 20px;
+            margin-right: 15px;
+        }
+    
+        /* -----contact-section-style-responsive-end----- */
+         /* -----fotter-section-style-started----- */
+        #footer p {
+            font-size: 16px;
+            line-height: 25px;
+        }
+         /* -----fotter-section-style-end----- */
+}
+/* -----responsive-for-medium-device-started */
